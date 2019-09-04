@@ -1,0 +1,20 @@
+{
+    "link": [
+        {
+            "linkName": "<a href='#'>HOME</a>"
+        },
+
+        {
+            "linkName": "<a href='#'>SHARED HOSTING</a>"
+        },
+
+        {
+            "linkName": "<a href='#'>VPS HOSTING</a>"
+        },
+
+        {
+            "linkName": "<a href='#'>DEDICATED SERVERS</a>"
+        }
+
+    ]
+}
