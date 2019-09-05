@@ -1,18 +1,15 @@
-<div class="top-bar">     
-    <div class="top-bar-left">        
-        <ul class="menu align-left">
-            {{#each info.left }}
+<header class="contact-bar">
+    <div class="contact-bar__container">
+        <ul class="contact-bar__left-side">
+            {{#each contact-left.links}}
                 <li>{{{ info }}}</li>
-            {{/each }}                
+            {{/each}}
         </ul>
-    </div>        
-
-
-    <div class="top-bar-right">
-        <ul class="menu align-right">
-            {{#each about.right }}
+        
+        <ul class="contact-bar__right-side">
+            {{#each contact-right.links}}
                 <li>{{{ info }}}</li>
-            {{/each }}                
-        </ul>
-    </div>    
-</div>
+            {{/each}}
+        </ul>        
+    </div>
+</header>
