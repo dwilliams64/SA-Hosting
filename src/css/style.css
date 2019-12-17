@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__main {
+  width: 100%;
+  background-color: #3D3F40;
+  padding: 20px 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

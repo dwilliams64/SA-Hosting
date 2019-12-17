@@ -1,24 +1,21 @@
+// ABSTRACTS
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+// BASE
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/button";
-@import "components/compostion";
-@import "components/feature-box";
-@import "components/card";
-@import "components/story";
-@import "components/video";
-@import "components/form";
-@import "components/navigation";
-@import "components/popup";
+// COMPONENTS
+@import "components/general";
 
-@import "layouts/grid";
+// LAYOUTS
+@import "layouts/navigation";
 @import "layouts/header";
 @import "layouts/footer";
 
+// PAGES
 @import "pages/home";
