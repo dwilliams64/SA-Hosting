@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "SAHosting",
   "version": "1.0.0",
-  "description": "Lading page for natours",
+  "description": "SAHosting website",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
